@@ -1,0 +1,85 @@
+body{
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.navSide{
+  height: 100%;
+  width: 20%;
+  position: fixed;
+  left: 0;
+  border-right: 3px solid gray;
+  overflow: auto;
+  text-align: center;
+}
+
+.contentSide{
+  height: 100%;
+  width: 80%;
+  position: fixed;
+  right: 0;
+  overflow: auto;
+}
+
+section{
+  padding: 20px;
+}
+
+header{
+  font-size: 23px;
+}
+
+code, p{
+  display: block;
+  padding-top: 10px;
+}
+
+/*For the div classes to help align elements and for font*/
+.text{
+  margin-left: 30px;
+  font-family: monospace;
+  font-size: 14px;
+}
+
+ul{
+  margin-left: 10px;
+}
+
+li{
+  padding-top: 10px;
+}
+
+.specialBackground{
+  background-color: #D3D3D3;
+  padding-bottom: 10px;
+}
+
+.linkHead{
+  padding: 20px;
+  border-bottom: 1px solid black;
+  position: sticky;
+}
+
+a{
+  text-decoration: none;
+  color: gray;
+  font-size: 20px;
+}
+
+.linkDiv{
+  padding: 10px;
+  border-bottom: 1px solid black;
+}
+
+@media (max-width: 768px) {
+
+  .navSide{
+    display: none;
+  }
+
+  .contentSide{
+    width: 100%;
+    height: 100%;
+  }
+
+}
